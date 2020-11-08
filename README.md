@@ -19,10 +19,21 @@ This script only works with a Gmail account
 7. Add a trigger that runs the `processNewStudentEmails` function. You may choose whatever time interval you'd like, here is the recommended default:![image-20201107105916188](./assets/image-20201107105916188.png)
 8. Click save and you should see new students directly added to your spreadsheet!
 
+## Changelog
+
+#### 11/7/2020
+
+- added function that adds students to Google Contacts
+- Contacts all go into a group for easy sending of weekly blast email
+
+
+
 ## Future Development
 
 - scrape Github Username and Time Difference as well
 - convert into extension so user does not have to create own project
+- auto send intro email
+- auto create zoom link for recurring meeting and add it to the spreadsheet
 
 ## Acknowledgements
 
