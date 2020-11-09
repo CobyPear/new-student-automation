@@ -26,13 +26,16 @@ This script only works with a Gmail account
 - added function that adds students to Google Contacts
 - Contacts all go into a group for easy sending of weekly blast email
 
+#### 11/9/2020
 
+- added function that automatically sends intro email
+  - don't forget to add your name and calendly link to the code (lines 121 and 123 of `Code.js`)
 
 ## Future Development
 
 - scrape Github Username and Time Difference as well
 - convert into extension so user does not have to create own project
-- auto send intro email
+- ~~auto send intro email~~
 - auto create zoom link for recurring meeting and add it to the spreadsheet
 
 ## Acknowledgements
