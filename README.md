@@ -12,8 +12,9 @@ This script only works with a Gmail account
 2. go to script.google.com
 3. click the New Project button ![image-20201107105248274](./assets/image-20201107105248274.png)
 4. Copy the files into your new project.
-   1. The only parameters you need to change are line 58 in Code.gs. Here you will put the URL to your spreadsheet.
+   1. Change line 58 in Code.gs. Here you will put the URL to your spreadsheet.
    2. You may change the last argument on line 8. This will be the number of emails that will be searched (default 4)
+   3. Also fill in your name and link to calendly on lines 121 and 123 for the intro email
 5. Deploy the project as a web app and accept the OAuth. ![image-20201107105544704](/assets/image-20201107105544704.png)
 6. Back on the project page, click the hamburger menu>Triggers ![image-20201107105742607](./assets/image-20201107105742607.png)
 7. Add a trigger that runs the `processNewStudentEmails` function. You may choose whatever time interval you'd like, here is the recommended default:![image-20201107105916188](./assets/image-20201107105916188.png)
