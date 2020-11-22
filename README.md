@@ -22,6 +22,11 @@ This script only works with a Gmail account
 
 ## Changelog
 
+#### 11/22/2020
+
+- Replaced hardcoded name with `tutorName` variable in intro email template
+- `addStudentsToContacts` can now handle student with 3 names
+
 #### 11/7/2020
 
 - added function that adds students to Google Contacts
